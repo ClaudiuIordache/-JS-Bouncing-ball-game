@@ -3,5 +3,5 @@
 
 A retro-inspired arcade game using JavaScript and Node modules to create an accurate experience of the 20th century entertainment.
 
-The game engine uses DOM Manipulation, CSS Custom Properties (variables), Event Listeners and the SetInterval() method.
+The game engine uses DOM Manipulation, CSS Custom Properties (Variables), Event Listeners and the SetInterval() method to create the ball motion, collision detection and falling rewards.
 
