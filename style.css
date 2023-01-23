@@ -1,0 +1,120 @@
+:root {
+    --position-Ox1: 60;
+    --position-Oy1:160;
+    --position-Ox2: 20;
+    --position-Oy2: 400;
+    --position-Ox3: 500;
+    --position-Oy3:400;
+    --position-Ox4: 600;
+    --position-Oy4:70;
+}
+
+.cursor { cursor: cell}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+
+    background-color: rgb(181, 181, 181);
+    height: 535px;
+    width: 735px;
+    border: 3px inset;
+    border-color: white rgb(114, 114, 114)rgb(114, 114, 114) white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: inline-block;
+    gap: 20px;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    width: 700px;
+    border: 3px outset;
+    border-color: rgb(114, 114, 114) white white rgb(114, 114, 114);
+    position: relative;
+}
+
+.ball {
+    position: absolute;
+    top: calc(var(--position-Oy)*1px);
+    left: calc(var(--position-Ox)*1px);
+    width:13px;
+    aspect-ratio: 1/1;
+    background: red;
+    border-radius: 50%;
+    box-shadow: inset 0 0 10px rgb(255, 255, 255);
+}
+
+.ball1 {
+    top: calc(var(--position-Oy1)*1px);
+    left: calc(var(--position-Ox1)*1px);
+}
+
+
+.ball2 {
+    top: calc(var(--position-Oy2)*1px);
+    left: calc(var(--position-Ox2)*1px);
+}
+
+.ball3 {
+    top: calc(var(--position-Oy3)*1px);
+    left: calc(var(--position-Ox3)*1px);
+}
+
+.ball4 {
+    top: calc(var(--position-Oy4)*1px);
+    left: calc(var(--position-Ox4)*1px);
+}
+
+.button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 190px;
+    background-color: rgb(196, 196, 196);
+    border: 3px inset;
+    border-color: white rgb(114, 114, 114)rgb(114, 114, 114) white;
+    color: blue;
+    font-family: 'vt323regular';
+    font-size:25px;
+    text-decoration: none;
+    user-select: none;
+}
+
+.button:active {
+    background-color: rgb(150, 150, 150);
+  }
+
+.button:hover {
+    cursor:cell;
+}  
+
+.title {
+    font-size: 50px;
+    color: blue;
+    font-family: 'vt323regular'; 
+   }
+
+@font-face {
+    font-family: 'vt323regular'; 
+    src: url('./fonts/vt323-regular-webfont.woff2') format('woff2'),
+    url('./fonts/vt323-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing ball</title>
+    <link rel="icon" type="image/x-icon" href="..\favicon\favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <link href="//db.onlinewebfonts.com/c/4c19fc875e7ba1e6831129de3ab5ac0b?family=Retro+Gaming" rel="stylesheet"
+        type="text/css" />
+
+</head>
+
+<body>
+    <main class="cursor">
+        <div class="border">
+            <div class="container">
+                <span class="message"></span>
+                <div class="resetButton" onclick="window.location.reload()"></div>
+                <a href="/index.html" class="returnButton"></a>
+                <div class="square">
+                    <div id="rewardsContainer">
+                        <div class="reward1">
+                            <div class="reward1Anim"></div>
+                        </div>
+                        <div class="reward2"><img  src="../img/2x_reward.png" alt="2x reward" width="18px" height="18px"></div>
+                        <div class="reward3"><img  src="../img/10p_reward.png" alt="10s reward" width="18px" height="18px"></div>
+                        <div class="reward4"><img  src="../img/double_ball_reward.png" alt="double ball reward" width="18px" height="18px"></div>
+                    </div>
+                </div>
+
+                <div class="barBox">
+                    <div class="bar"></div>
+                </div>
+                <div class="ball ball1"></div>
+                <div class="ball ball2"></div>
+            </div>
+        </div>
+        <div class="borderRight">
+            <div class="containerRight">
+                <div class="mini-container-right">
+                    <p class="messageRight">TIMER:
+                        <div class="timer"></div>
+                    </p>
+                    
+                </div>
+                <div class="mini-container-right">
+                    <p class="messageRight">POINTS:
+                        <div class="score"></div>
+                    </d>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
