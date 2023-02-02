@@ -5,6 +5,6 @@ A retro-inspired arcade game using JavaScript and Node modules to create an accu
 
 The game engine uses DOM Manipulation, CSS Custom Properties (Variables), Event Listeners and the SetInterval() method to create the ball motion, collision detection and falling rewards.
 
-Play it here: https://bouncing-ball-arcade-game.netlify.app/
+Play it here: https://bouncing-ball-8-bit.netlify.app/
 
 (Only from desktop/laptop browser. The bar is mouse-controlled. Press ctrl+ to resize the game to your screen size.)    
