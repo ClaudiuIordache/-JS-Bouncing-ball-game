@@ -7,4 +7,4 @@ The game engine uses DOM Manipulation, CSS Custom Properties (Variables), Event 
 
 Play it here: https://bouncing-ball-arcade-game.netlify.app/
 
-(Only from desktop/laptop browser. The bar is mouse-controlled. Press ctrl+ to resize the game to your screen size)    
+(Only from desktop/laptop browser. The bar is mouse-controlled. Press ctrl+ to resize the game to your screen size.)    
